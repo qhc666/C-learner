@@ -1,0 +1,49 @@
+//#define _CRT_SECURE_NO_WARNINGS
+//#include<stdio.h>
+//int main()
+//{
+//	int day = 0;
+//	scanf("%d", &day);
+//	switch (day)
+//	{
+//	case 1:
+//		printf("星期一\n");
+//		break;
+//	case 2:
+//		printf("星期二\n");
+//		break;
+//	default:
+//		printf("输入错误\n");
+//		break;
+//	}
+//	return 0;
+//}
+//switch (整型表达式)
+//{
+//	语句项; （为case语句）
+//}
+//
+//case 整型常量表达式;
+//	语句;
+
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main()
+{
+	int day = 0;
+	scanf("%d", &day);
+	switch (day)
+	{
+	case 1:
+		printf("星期一\n");
+		break;
+	case 2:
+		printf("星期二\n");
+		break;
+	default:
+		printf("输入错误\n");
+		break;
+	}
+	return 0;
+}
+
