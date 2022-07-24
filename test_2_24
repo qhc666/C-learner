@@ -1,0 +1,21 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<stdio.h>
+int main()
+{
+	printf("请输入密码");
+	int password[20] = { 0 };
+	scanf("%s", password);
+	while (getchar() != '\n')
+	{
+		;
+	}
+	//int ch = getchar();
+	printf("请确认密码（T/F）");
+	int ch = getchar();
+	if (ch == 'T')
+		printf("确认成功");
+	else if (ch='F')
+		printf("确认失败");
+	
+	return 0;
+}
